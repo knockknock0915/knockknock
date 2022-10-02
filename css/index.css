@@ -1,11 +1,14 @@
-
-
+/*頁首父階層*/
 .section{
+    /*測試位置*/
     /* border:2px red solid; */
     background: #ffead8;
     overflow:hidden;
+    /*測試位置*/
 }
-.title{
+
+/*頁首子階層-1_logo*/
+.logo{
     padding-top: 1.5rem;
     padding-left: 2rem;
     width:30%;
@@ -14,42 +17,31 @@
     font-size: 5rem;
     text-align: center;
     overflow:hidden;
-    /* border:2px white solid; */
+    /*測試位置*/
+    /* border:2px red solid; */
 }
 
-.h1{
-    /* border: 1px solid; */
-    font-size: 10rem;
-    text-align: center;
-    color: #f28500;
-    font-family: 標楷體;
-}
-.h2{
-    /* border: 1px solid; */
-    font-size: 3rem;
-    text-align: right;
-    padding-left: 3rem;
-    color:#BD7B00;
-    font-family:"Courier New", Courier, monospace;
-} 
 
+/*頁首子階層-2_功能選單*/
 .list{
       padding-top: 3rem;
       width: 60%;
       line-height: 10rem;
+      /*測試位置*/
       /* border:2px black solid; */
       float:right;
     }
     
     .list li{
-      float: right;
+      float: left;
       list-style-type:none;
       display: inline;
     } 
     
   
     .list li a{
-      /* display: inline-block; */
+      display: inline-block;
+      position:right;
       text-decoration: none;
       color: #FF8A00;
       font-size: 4rem;
@@ -57,19 +49,8 @@
       padding-right: 5rem;
       font-family: 標楷體;
     }
-    .char{
-      padding-top:1rem; ;
-      font-size: 4rem;
-      text-transform: uppercase;
-      letter-spacing: 0.75px;
-      font-weight: 500;
-      text-align: center;
-      margin-bottom: 2.4rem;
-      color: #FF8A00;;
-      font-family: 標楷體;
-      /* border:2px red solid; */
-      
-    }
+
+/*文字*/
     .text{
       padding-top:1rem; ;
       font-size: 1.4rem;
@@ -80,31 +61,28 @@
       margin-bottom: 2.4rem;
       color: #888;
     }
-        
-    .au{
-      /* border:2px red solid; */
-      background: #ffead8;
-      overflow:hidden;
-    }
-    
-    .lin{
-      float: left;
-      width: 40%;
-      /* border:2px black solid;*/
-    } 
-    
-    
-    
-    .lintext{
-      float:right;
-      width: 59.5%;
-      /* border:2px black solid; */
-      text-align: left;
-      font-size: 2rem;
-      font-family: 標楷體;
-    }
-  
 
+    .au{
+      display: flex inline-flex;
+      overflow:hidden;
+      /* background-color: #FBA183; */
+      /*測試位置*/
+      /* border:2px red solid; */
+      
+    }  
+    
+  .au-left{
+    /*測試位置*/
+    /* border:2px red solid; */
+    float: left;
+    width: 45%;
+    font-family: 標楷體;
+    font-size: 4rem;
+    color: #FF8A00;
+    text-align: right;
+  }
+  
+ 
 
 
 
