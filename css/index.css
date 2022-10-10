@@ -2,7 +2,7 @@
 .section{
     /*測試位置*/
     /* border:2px red solid; */
-    background: #ffead8;
+    /* background: #ffead8; */
     overflow:hidden;
     /*測試位置*/
 }
@@ -51,18 +51,9 @@
     }
 
 /*文字*/
-    .text{
-      padding-top:1rem; ;
-      font-size: 1.4rem;
-      text-transform: uppercase;
-      letter-spacing: 0.75px;
-      font-weight: 500;
-      text-align: center;
-      margin-bottom: 2.4rem;
-      color: #888;
-    }
-
+    
     .au{
+      background: #ffead8;
       display: flex inline-flex;
       overflow:hidden;
       /* background-color: #FBA183; */
@@ -71,18 +62,29 @@
       
     }  
     
-  .au-left{
-    /*測試位置*/
-    /* border:2px red solid; */
-    float: left;
-    width: 45%;
-    font-family: 標楷體;
-    font-size: 4rem;
-    color: #FF8A00;
-    text-align: right;
-  }
+      .au-left{
+        /*測試位置*/
+        /* border:2px red solid; */
+        float: left;
+        width: 45%;
+        font-family: 標楷體;
+        font-size: 4rem;
+        color: #FF8A00;
+        text-align: right;
+      }
   
  
+  .text{
+    
+    padding-top:1rem; ;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #888;
+  }
 
 
 
